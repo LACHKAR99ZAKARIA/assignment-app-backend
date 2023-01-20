@@ -9,4 +9,4 @@ let AssignmentSchema = Schema({
 });
 
 // C'est à travers ce modèle Mongoose qu'on pourra faire le CRUD
-module.exports = mongoose.model('Assignment', AssignmentSchema);
+module.exports = mongoose.model('assignments', AssignmentSchema);
